@@ -1,0 +1,367 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-inner img {
+    width: 100%;
+}
+.btn {
+    background-image: linear-gradient(to left,orange, red);
+}
+.hightech-opacity {
+	opacity: 0.15;
+}
+.offers-opacity {
+	opacity: 0.05;
+}
+.best-building {
+    margin-top: -70px;	
+}
+.section02 img.img-fluid {
+    height: 350px;
+}
+.section03 button.btn,
+.section03 .service-solution02 .plus-botton {
+    background: transparent;
+}
+.section03 .service-solution01 a.btn {
+	border: none;	
+}
+.section03 .service-solution01 {
+	background: #003063;
+}
+.section03 .service-solution01,
+.section03 .service-solution02 {
+    height: 283px;
+}
+.section04 button.btn.play-button {
+	position: relative;
+	border-radius: 50%;
+	height: 50px;
+	background: #ff5e00;
+}
+.section04 .bg-primary ,
+.section04.for-background ,
+.section07.for-background {
+    background-color: #004692!important;
+}
+.section04 .for-display {
+	display: flex;
+    max-width: 70%;
+}
+.section04 p.text-white.project {
+    width: 130px;
+	max-width: 200px;
+}
+.section04 .project-complete {
+	max-width: 100PX;
+	width: 70px;
+}
+.section04 .play-button::before {
+	position: absolute;
+    content: '';
+    background: transparent;
+    border-radius: 50%;
+	animation: light 2s linear infinite;
+	border: 10px solid #ff5e00;	
+}
+@keyframes light {
+	0% {
+		border: 2px solid #ff5e00;
+		top: -2px;
+		left: -2px;
+		width: 58px;
+		height: 52px;
+	}
+	50% {
+		border: 10px solid #ff5e00;
+		top: -10px;
+		left: -10px;
+		width: 75px;
+		height: 68px;
+	}
+	100% {
+	    border: 2px solid #ff5e00;
+		top: -2px;
+		left: -2px;
+		width: 58px;
+		height: 52px;	
+	}
+}
+.section05 {
+	padding-left: 0;
+}
+.section05 .my-auto {
+	position: relative;
+}
+.section05 img.img-fluid.for-png {
+    position: absolute;
+    width: 74px;
+    max-width: 200px;
+    transform: rotateY(180deg);
+    background-image: linear-gradient(to left,orange, red);
+    border-radius: 50%;
+    padding: 12px;
+    border: 7px solid #fff;
+    top: -8%;
+    left: -68px;
+}
+.container.section05 .row {
+    box-shadow: 0 0 10px rgb(0 0 0);
+}
+.section05 img.img-fluid.carousel {
+    margin-left: -15px;
+}
+.container.mb-5.section05 {
+    margin-top: -100px;
+}
+.section06 .owner-company {
+    display: flex;
+    width: 200%;
+    max-width: 300%;
+}
+.section06 .owner-company .alexander {
+	width: 124%;
+    max-width: 300%;
+    padding: 0;
+}
+.section06 .signature-image img {
+    width: 60px;
+}
+.section06 .one01 img {
+    width: 70px;
+}
+.section06 .for-percentage01,
+.section06 .for-percentage03 {
+	border: 3px solid #ce5f00;
+	border-radius: 50%;
+	width: 140px;
+	padding: 19px 0px 16px 24px;
+}
+.section06 .for-percentage02 {
+	border: 3px solid #ce5f00;
+	border-radius: 50%;
+	width: 170px;
+	padding: 31px 0px 16px 23px;
+}
+.section06 .effects-round {
+	position: relative;
+}
+.section06 .effects-round .for-percentage03 {
+	position: absolute;
+	bottom: 0;
+    right: 30%;
+}
+.section06 .effects-round .for-percentage01 {
+	position: absolute;
+    top: 20%;
+    left: 30%;
+	height: 130px;
+}
+.section06 .effects-round .for-percentage02 {
+    position: absolute;
+    top: 58%;
+    left: 7%;
+}
+.section07 .all-photos,
+.section09 .all-photos {
+	background-image: linear-gradient(orange, red);
+}
+.section07 .for-photos {
+	padding: 0;
+	transition: all 0.3s;
+}
+.section07 .for-effects {
+	position: relative;
+}
+.section07 .for-opecity {
+    position: absolute;
+    bottom: 30px;
+    right: 35%;
+	opacity: 0;
+}
+.section07 .for-photos:hover .for-opecity {
+	opacity: 1;
+	transition: all 0.3s;
+}
+.section07 .for-logo {
+	display: flex;
+	background: #a74d00;
+}
+.section08 .background-color p {
+    color: #929292;
+}
+.section08 .background-color,
+.section09.background-color {
+	background: #020065;
+}
+.section08 .for-displays {
+	display: flex;
+}
+.section08 .carousel.slide {
+	position: relative;
+}
+.section08 .carousel.slide a.carousel-control-prev {
+    position: absolute;
+    background: red;
+    width: 50px;
+    height: 50px;
+    top: 320px;
+    left: -50px;
+}
+.section08 .carousel.slide a.carousel-control-next {
+    position: absolute;
+    background: blue;
+    width: 50px;
+    height: 50px;
+    top: 320px;
+    left: 0px;
+}
+.section09 .best-building {
+    margin-top: -58px;	
+}
+.section09 .team-member {
+    display: flex;
+}
+.section09 .for-hover {
+	position: relative;
+	overflow: hidden;
+    transition: all 0.3s;
+}
+.section09 .for-hover::before {
+    content: '';
+    position: absolute;
+    width: 91%;
+    height: 270px;
+    background: blue;
+    opacity: 0;
+}
+.section09 .for-hover:hover::before {
+	opacity:0.4;
+    transition: all 0.3s;
+}
+.section09 .for-hover .for-opecity {
+	position: absolute;
+    top: 172px;
+    left: 13px;
+	display: flex;
+	opacity: 0;
+    transition: all 0.3s;
+}
+.section09 .for-hover:hover .for-opecity {
+	opacity: 1;
+    transition: all 0.3s;
+}
+.section10 .for-width {
+    max-width: 100%;
+    width: 100%;
+}
+
+.section10 .best-building {
+    margin-top: -65px;
+}
+.section10 .toggle-class {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+}
+.section10 .toggle-class a.btn.text-left {
+	background-image: linear-gradient(orange, red);
+    color: #fff;
+	padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #000;
+}
+.section10 .toggle-class a.btn.text-left.collapsed {
+    border: 1px solid #000;
+    background-image: linear-gradient(#fff, #fff);
+    color: #0000ff;
+	padding: 10px;
+    margin: 5px 0;
+}
+.section10 .toggle-class div {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 10px;
+    background: #f7f7f7;
+}
+.section11 .for-background {
+    background: #bf4700;
+}
+.section11 a.all-photos {
+	background: #0f008e;
+}
+footer .for-background {
+	background: #020065;
+	display: flex;
+}
+footer p.mt-3 {
+    color: #fff;
+}
+footer .part1,
+footer .part2,
+footer .part3,
+footer .part4 {
+	display: grid;
+}
+footer .part2 a,
+footer .part3 a {
+	position: relative;
+}
+footer .part2 a::before,
+footer .part3 a::before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: 10px;
+	background-image: linear-gradient(orange, red);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+footer .part4 form {
+	position: relative;
+}
+footer .part4 form button.btn{
+    position: absolute;
+    right: 0;
+    padding: 3px 74px;
+    top: 47px;
+}
+footer .part4 p {
+    margin-top: -35px;
+}
+footer .part4 p {
+    margin-top: -35px;
+}
+footer .part4 form {
+    margin-top: -50px;
+}
+footer .right-theme {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+footer .part1 img.img-fluid.social {
+    width: 30px;
+    max-width: 100px;
+}
+footer .part1 .for-image {
+	display: flex;
+}
+footer .address-icon {
+    transform: rotateY(180deg);
+    width: 30px;
+}
+footer .call-us {
+    display: flex;
+}
+footer .for-border {
+	border: 1px solid #808080;	
+	padding: 20px;
+}
+footer .for-width{
+    width: 30%;
+	max-width: 100%
+}
